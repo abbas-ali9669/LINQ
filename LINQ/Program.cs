@@ -8,7 +8,9 @@ namespace LINQ
         public static void Main(string[] args)
         {
             // So From this lecture series we are started learning LINQ(Language Integrated Queries).
-            Console.WriteLine("Hello World");
+
+            // 1. Way of writing LINQ queries
+            WayToWriteLINQ.Example();
         }
     }
 }
