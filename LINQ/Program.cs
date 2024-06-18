@@ -9,8 +9,11 @@ namespace LINQ
         {
             // So From this lecture series we are started learning LINQ(Language Integrated Queries).
 
-            // 1. Way of writing LINQ queries
-            WayToWriteLINQ.Example();
+            // 3. Way of writing LINQ queries
+            // WayToWriteLINQ.Example();
+
+            // 4. IEnumerable and IQueryable
+            IEnumerableAndIQueryable.Example();
         }
     }
 }
