@@ -13,7 +13,12 @@ namespace LINQ
             // WayToWriteLINQ.Example();
 
             // 4. IEnumerable and IQueryable
-            IEnumerableAndIQueryable.Example();
+            // IEnumerableAndIQueryable.Example();
+
+            // 5, 6. IEnumerable vs IEnumerator
+            IEnumerableAndIEnumerator.Example();
+
+            Console.ReadLine();
         }
     }
 }
