@@ -21,7 +21,10 @@ namespace LINQ
             // 7. IEnumerable vs IQueryable
 
             // 8. Projection Operator (Select())
-            ProjectionOperator_Select.Example();
+            // ProjectionOperator_Select.Example();
+
+            // 9. Projection Operator (SelectMany())
+            ProjectionOperator_SelectMany.Example();
 
             Console.ReadLine();
         }
