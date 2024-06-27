@@ -16,7 +16,12 @@ namespace LINQ
             // IEnumerableAndIQueryable.Example();
 
             // 5, 6. IEnumerable vs IEnumerator
-            IEnumerableAndIEnumerator.Example();
+            // IEnumerableAndIEnumerator.Example();
+
+            // 7. IEnumerable vs IQueryable
+
+            // 8. Projection Operator (Select())
+            ProjectionOperator_Select.Example();
 
             Console.ReadLine();
         }
