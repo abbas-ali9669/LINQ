@@ -24,7 +24,10 @@ namespace LINQ
             // ProjectionOperator_Select.Example();
 
             // 9. Projection Operator (SelectMany())
-            ProjectionOperator_SelectMany.Example();
+            //ProjectionOperator_SelectMany.Example();
+
+            // 10. Filtering Operator (Where())
+            FilteringOperator_Where.Example();
 
             Console.ReadLine();
         }
