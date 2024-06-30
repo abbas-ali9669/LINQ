@@ -27,7 +27,10 @@ namespace LINQ
             //ProjectionOperator_SelectMany.Example();
 
             // 10. Filtering Operator (Where())
-            FilteringOperator_Where.Example();
+            // FilteringOperator_Where.Example();
+
+            // 11. Filtering Operator (OfType())
+            FilteringoOperator_OfType.Example();
 
             Console.ReadLine();
         }
