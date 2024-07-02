@@ -32,8 +32,11 @@ namespace LINQ
             // 11. Filtering Operator (OfType())
             // FilteringoOperator_OfType.Example();
 
-            // 12. Sorting Operators
-            SortingOperators_OrderBy.Example();
+            // 12. Sorting Operators (OrderBy())
+            // SortingOperators_OrderBy.Example();
+
+            // 13. Sorting Operator (OrderByDescending())
+            SortingOperator_OrderByDescending.Example();
 
             Console.ReadLine();
         }
