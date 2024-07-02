@@ -30,7 +30,10 @@ namespace LINQ
             // FilteringOperator_Where.Example();
 
             // 11. Filtering Operator (OfType())
-            FilteringoOperator_OfType.Example();
+            // FilteringoOperator_OfType.Example();
+
+            // 12. Sorting Operators
+            SortingOperators_OrderBy.Example();
 
             Console.ReadLine();
         }
