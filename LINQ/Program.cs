@@ -36,7 +36,10 @@ namespace LINQ
             // SortingOperators_OrderBy.Example();
 
             // 13. Sorting Operator (OrderByDescending())
-            SortingOperator_OrderByDescending.Example();
+            //SortingOperator_OrderByDescending.Example();
+
+            // 14. Sorting Operator (ThenBy())
+            SortingOperator_ThenBy.Example();
 
             Console.ReadLine();
         }
