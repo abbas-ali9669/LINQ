@@ -45,7 +45,10 @@ namespace LINQ
             //SortingOperator_ThenByDescending.Example();
 
             // 16. Sorting Operator (Reverse())
-            SortingOperator_Reverse.Example();
+            // SortingOperator_Reverse.Example();
+
+            // 17. Quantifier Operator (All())
+            QuantiferOperator_All.Example();
 
             Console.ReadLine();
         }
