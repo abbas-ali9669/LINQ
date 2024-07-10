@@ -48,7 +48,10 @@ namespace LINQ
             // SortingOperator_Reverse.Example();
 
             // 17. Quantifier Operator (All())
-            QuantiferOperator_All.Example();
+            // QuantiferOperator_All.Example();
+
+            // 18. Quantifier Operator (Any())
+            QuantifierOperator_Any.Example();
 
             Console.ReadLine();
         }
