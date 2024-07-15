@@ -51,7 +51,10 @@ namespace LINQ
             // QuantiferOperator_All.Example();
 
             // 18. Quantifier Operator (Any())
-            QuantifierOperator_Any.Example();
+            // QuantifierOperator_Any.Example();
+
+            // 19. Quantifier Operator(Contains())
+            QuantifierOperator_Contains.Example();
 
             Console.ReadLine();
         }
