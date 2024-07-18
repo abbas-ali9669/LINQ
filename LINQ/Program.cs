@@ -59,7 +59,10 @@ namespace LINQ
             // 20. Set Operations
 
             // 21. Set Operations (Distinct())
-            SetOperator_Distinct.Example();
+            //SetOperator_Distinct.Example();
+
+            // 22. Except Operator (Except())
+            SetOperator_Except.Example();
 
             Console.ReadLine();
         }
