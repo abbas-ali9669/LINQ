@@ -56,6 +56,31 @@ namespace LINQ
             Console.WriteLine("Breakpoint");
         }
 
+        // Example with anonymous object
+        public static void Example4()
+        {
+            var student1 = new List<Student>()
+            {
+                new Student(){ Id = 1, Name = "Abbas" },
+                new Student(){ Id = 2, Name = "Abdullah" },
+                new Student(){ Id = 3, Name = "Ali" },
+                new Student(){ Id = 4, Name = "Ahmed" },
+                new Student(){ Id = 5, Name = "Wasim" },
+            };
+
+
+            var student2 = new List<Student>()
+            {
+                new Student(){ Id = 1, Name = "Abbas" },
+                new Student(){ Id = 2, Name = "Abdullah" },
+                new Student(){ Id = 3, Name = "Ali" },
+                new Student(){ Id = 4, Name = "Ahmed" }
+            };
+
+            var methodSyntax = student1.Select(x => new { x.Id, x.Name }).Except(student2.Select(y => new { y.Id, y.Name })).ToList();
+            Console.WriteLine("Breakpoint");
+        }
+
         public static void Example3()
         {
             var student1 = new List<Student>()
@@ -127,7 +152,8 @@ namespace LINQ
         {
             //SetOperator_Except_22.Example1();
             //SetOperator_Except_22.Example2();
-            SetOperator_Except_22.Example3();
+            //SetOperator_Except_22.Example3();
+            SetOperator_Except_22.Example4();
         }
     }
 }
