@@ -62,7 +62,10 @@ namespace LINQ
             //SetOperator_Distinct.Example();
 
             // 22. Except Operator (Except())
-            SetOperator_Except.Example();
+            // SetOperator_Except.Example();
+
+            // 23. Set Operator Intersect
+            SetOperator_Intersect.Example();
 
             Console.ReadLine();
         }
