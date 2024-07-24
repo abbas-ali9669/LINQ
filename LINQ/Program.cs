@@ -64,8 +64,11 @@ namespace LINQ
             // 22. Except Operator (Except())
             // SetOperator_Except.Example();
 
-            // 23. Set Operator Intersect
-            SetOperator_Intersect.Example();
+            // 23. Set Operator (Intersect())
+            //SetOperator_Intersect.Example();
+
+            // 24. Set Operator (Union())
+            SetOperator_Union.Example();
 
             Console.ReadLine();
         }
