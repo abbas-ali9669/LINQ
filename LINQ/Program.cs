@@ -68,7 +68,10 @@ namespace LINQ
             //SetOperator_Intersect.Example();
 
             // 24. Set Operator (Union())
-            SetOperator_Union.Example();
+            // SetOperator_Union.Example();
+
+            // 25. Partitioning Operators
+
 
             Console.ReadLine();
         }
