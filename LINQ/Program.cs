@@ -73,7 +73,10 @@ namespace LINQ
             // 25. Partitioning Operators
 
             // 26. Partitioning Operators (Take())
-            PartitioningOperator_Take.Example();
+            //PartitioningOperator_Take.Example();
+            
+            // 27. Partitioning Operators (TakeLast())
+            PartitioningOperator_TakeLast.Example();
 
             Console.ReadLine();
         }
