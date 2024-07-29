@@ -85,7 +85,10 @@ namespace LINQ
             //PartitioningOperator_Skip.Example();
 
             // 30. Partitioning Operators (SkipLast())
-            PartitioningOperator_SkipLast.Example();
+            //PartitioningOperator_SkipLast.Example();
+            
+            // 31. Partitioning Operators (SkipWhile())
+            PartitioningOperator_SkipWhile.Example();
 
             Console.ReadLine();
         }
