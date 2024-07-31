@@ -86,9 +86,12 @@ namespace LINQ
 
             // 30. Partitioning Operators (SkipLast())
             //PartitioningOperator_SkipLast.Example();
-            
+
             // 31. Partitioning Operators (SkipWhile())
-            PartitioningOperator_SkipWhile.Example();
+            //PartitioningOperator_SkipWhile.Example();
+
+            // 32. Implement Pagination using Skip and Taks operators (Project)
+            ImplementPagination.Example();
 
             Console.ReadLine();
         }
