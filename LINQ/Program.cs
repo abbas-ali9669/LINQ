@@ -91,7 +91,10 @@ namespace LINQ
             //PartitioningOperator_SkipWhile.Example();
 
             // 32. Implement Pagination using Skip and Taks operators (Project)
-            ImplementPagination.Example();
+            //ImplementPagination.Example();
+
+            // 33. Join Operations
+
 
             Console.ReadLine();
         }
