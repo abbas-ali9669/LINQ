@@ -95,6 +95,10 @@ namespace LINQ
 
             // 33. Join Operations
 
+            // 34. Join Operations (Inner Join)
+            JoinOperator_InnerJoin.Example();
+
+
 
             Console.ReadLine();
         }
