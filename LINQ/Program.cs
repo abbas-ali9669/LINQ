@@ -102,7 +102,10 @@ namespace LINQ
             //JoinOperator_InnerJoinWithMultipleTable.Example();
 
             // 36. Join Operations (GroupJoin)
-            JoinOperator_GroupJoin.Example();
+            //JoinOperator_GroupJoin.Example();
+
+            // 37. Join Operations (Left Join/Left Outer Join)
+            JoinOperator_LeftOrLeftOuterJoin.Example();
 
 
 
