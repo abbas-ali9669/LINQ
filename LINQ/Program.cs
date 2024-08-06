@@ -105,8 +105,9 @@ namespace LINQ
             //JoinOperator_GroupJoin.Example();
 
             // 37. Join Operations (Left Join/Left Outer Join)
-            JoinOperator_LeftOrLeftOuterJoin.Example();
+            // JoinOperator_LeftOrLeftOuterJoin.Example();
 
+            // 38. Element Operations
 
 
             Console.ReadLine();
