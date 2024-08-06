@@ -109,6 +109,9 @@ namespace LINQ
 
             // 38. Element Operations
 
+            // 39. ElementAt and ElementAtOrDefault
+            ElementOperation_ElementAndElemetntOrDefault.Example();
+
 
             Console.ReadLine();
         }
