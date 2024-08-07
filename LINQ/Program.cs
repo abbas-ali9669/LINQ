@@ -116,7 +116,10 @@ namespace LINQ
             //ElementOperator_FirstAndFirstOrDefault.Example();
 
             // 41. Element Operator (Last() and LastOrDefault())
-            ElementOperator_LastAndLastOrDefault.Example();
+            //ElementOperator_LastAndLastOrDefault.Example();
+
+            // 42. Element Operator (Single() and SingleOrDefault())
+            ElementOperator_SingleAndSingleOrDefault.Example();
 
 
             Console.ReadLine();
